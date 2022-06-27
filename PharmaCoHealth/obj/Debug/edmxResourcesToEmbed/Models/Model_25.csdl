@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PharmaCoHealth_25Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Administrator">
+    <Key>
+      <PropertyRef Name="AdminId" />
+    </Key>
+    <Property Name="AdminId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AdminFirstName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AdminLastName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AdminPhoneNo" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Medicines" Relationship="PharmaCoHealth_25Model.FK__Medicine__AdminI__239E4DCF" FromRole="Administrator" ToRole="Medicine" />
+    <NavigationProperty Name="Specializes" Relationship="PharmaCoHealth_25Model.FK__Specializ__Admin__267ABA7A" FromRole="Administrator" ToRole="Specialize" />
+  </EntityType>
+  <EntityType Name="BloodBank">
+    <Key>
+      <PropertyRef Name="BloodGrp" />
+    </Key>
+    <Property Name="BloodGrp" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Precision="8" Scale="2" />
+  </EntityType>
+  <EntityType Name="Doctor">
+    <Key>
+      <PropertyRef Name="DoctorId" />
+    </Key>
+    <Property Name="DoctorId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DoctorFirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DoctorLastName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Specialize" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DoctorPhoneNo" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="PATIENTREPORTs" Relationship="Self.FK__PATIENTRE__Docto__1920BF5C" FromRole="Doctor" ToRole="PATIENTREPORT" />
+    <NavigationProperty Name="Schedules" Relationship="Self.FK__Schedule__Doctor__1FCDBCEB" FromRole="Doctor" ToRole="Schedule" />
+  </EntityType>
+  <EntityType Name="Patient">
+    <Key>
+      <PropertyRef Name="PatientId" />
+    </Key>
+    <Property Name="PatientId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PatientFirstName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PatientLastName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PatientPhoneNo" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="PATIENTINFOes" Relationship="Self.FK__PATIENTIN__Patie__164452B1" FromRole="Patient" ToRole="PATIENTINFO" />
+    <NavigationProperty Name="PATIENTREPORTs" Relationship="Self.FK__PATIENTRE__Patie__1A14E395" FromRole="Patient" ToRole="PATIENTREPORT" />
+    <NavigationProperty Name="Schedules" Relationship="Self.FK__Schedule__Patien__1ED998B2" FromRole="Patient" ToRole="Schedule" />
+  </EntityType>
+  <EntityType Name="PATIENTINFO">
+    <Key>
+      <PropertyRef Name="PatientInfoId" />
+    </Key>
+    <Property Name="PatientInfoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PatientFirstName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PatientLastName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Age" Type="Int32" Nullable="false" />
+    <Property Name="Weight" Type="Double" Nullable="false" />
+    <Property Name="Gender" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MedicalHistory" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BloodGrp" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PatientId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Patient" Relationship="Self.FK__PATIENTIN__Patie__164452B1" FromRole="PATIENTINFO" ToRole="Patient" />
+  </EntityType>
+  <EntityType Name="PATIENTREPORT">
+    <Key>
+      <PropertyRef Name="ReportId" />
+    </Key>
+    <Property Name="ReportId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Symptom" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Diagnosis" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PrescribedMedicine" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DoctorId" Type="Int32" Nullable="false" />
+    <Property Name="PatientId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Doctor" Relationship="Self.FK__PATIENTRE__Docto__1920BF5C" FromRole="PATIENTREPORT" ToRole="Doctor" />
+    <NavigationProperty Name="Patient" Relationship="Self.FK__PATIENTRE__Patie__1A14E395" FromRole="PATIENTREPORT" ToRole="Patient" />
+  </EntityType>
+  <EntityType Name="Schedule">
+    <Key>
+      <PropertyRef Name="ScheduleID" />
+    </Key>
+    <Property Name="ScheduleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ScheduledTime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PatientId" Type="Int32" />
+    <Property Name="DoctorId" Type="Int32" />
+    <NavigationProperty Name="Doctor" Relationship="Self.FK__Schedule__Doctor__1FCDBCEB" FromRole="Schedule" ToRole="Doctor" />
+    <NavigationProperty Name="Patient" Relationship="Self.FK__Schedule__Patien__1ED998B2" FromRole="Schedule" ToRole="Patient" />
+  </EntityType>
+  <Association Name="FK__PATIENTRE__Docto__1920BF5C">
+    <End Role="Doctor" Type="Self.Doctor" Multiplicity="1" />
+    <End Role="PATIENTREPORT" Type="Self.PATIENTREPORT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctor">
+        <PropertyRef Name="DoctorId" />
+      </Principal>
+      <Dependent Role="PATIENTREPORT">
+        <PropertyRef Name="DoctorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Schedule__Doctor__1FCDBCEB">
+    <End Role="Doctor" Type="Self.Doctor" Multiplicity="0..1" />
+    <End Role="Schedule" Type="Self.Schedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctor">
+        <PropertyRef Name="DoctorId" />
+      </Principal>
+      <Dependent Role="Schedule">
+        <PropertyRef Name="DoctorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PATIENTIN__Patie__164452B1">
+    <End Role="Patient" Type="Self.Patient" Multiplicity="1" />
+    <End Role="PATIENTINFO" Type="Self.PATIENTINFO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="PatientId" />
+      </Principal>
+      <Dependent Role="PATIENTINFO">
+        <PropertyRef Name="PatientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PATIENTRE__Patie__1A14E395">
+    <End Role="Patient" Type="Self.Patient" Multiplicity="1" />
+    <End Role="PATIENTREPORT" Type="Self.PATIENTREPORT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="PatientId" />
+      </Principal>
+      <Dependent Role="PATIENTREPORT">
+        <PropertyRef Name="PatientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Schedule__Patien__1ED998B2">
+    <End Role="Patient" Type="Self.Patient" Multiplicity="0..1" />
+    <End Role="Schedule" Type="Self.Schedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="PatientId" />
+      </Principal>
+      <Dependent Role="Schedule">
+        <PropertyRef Name="PatientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PharmaCoHealth_25Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Administrators" EntityType="Self.Administrator" />
+    <EntitySet Name="BloodBanks" EntityType="Self.BloodBank" />
+    <EntitySet Name="Doctors" EntityType="Self.Doctor" />
+    <EntitySet Name="Patients" EntityType="Self.Patient" />
+    <EntitySet Name="PATIENTINFOes" EntityType="Self.PATIENTINFO" />
+    <EntitySet Name="PATIENTREPORTs" EntityType="Self.PATIENTREPORT" />
+    <EntitySet Name="Schedules" EntityType="Self.Schedule" />
+    <AssociationSet Name="FK__PATIENTRE__Docto__1920BF5C" Association="Self.FK__PATIENTRE__Docto__1920BF5C">
+      <End Role="Doctor" EntitySet="Doctors" />
+      <End Role="PATIENTREPORT" EntitySet="PATIENTREPORTs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Schedule__Doctor__1FCDBCEB" Association="Self.FK__Schedule__Doctor__1FCDBCEB">
+      <End Role="Doctor" EntitySet="Doctors" />
+      <End Role="Schedule" EntitySet="Schedules" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PATIENTIN__Patie__164452B1" Association="Self.FK__PATIENTIN__Patie__164452B1">
+      <End Role="Patient" EntitySet="Patients" />
+      <End Role="PATIENTINFO" EntitySet="PATIENTINFOes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PATIENTRE__Patie__1A14E395" Association="Self.FK__PATIENTRE__Patie__1A14E395">
+      <End Role="Patient" EntitySet="Patients" />
+      <End Role="PATIENTREPORT" EntitySet="PATIENTREPORTs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Schedule__Patien__1ED998B2" Association="Self.FK__Schedule__Patien__1ED998B2">
+      <End Role="Patient" EntitySet="Patients" />
+      <End Role="Schedule" EntitySet="Schedules" />
+    </AssociationSet>
+    <EntitySet Name="Medicines" EntityType="PharmaCoHealth_25Model.Medicine" />
+    <EntitySet Name="Specializes" EntityType="PharmaCoHealth_25Model.Specialize" />
+    <AssociationSet Name="FK__Medicine__AdminI__239E4DCF" Association="PharmaCoHealth_25Model.FK__Medicine__AdminI__239E4DCF">
+      <End Role="Administrator" EntitySet="Administrators" />
+      <End Role="Medicine" EntitySet="Medicines" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Specializ__Admin__267ABA7A" Association="PharmaCoHealth_25Model.FK__Specializ__Admin__267ABA7A">
+      <End Role="Administrator" EntitySet="Administrators" />
+      <End Role="Specialize" EntitySet="Specializes" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Medicine">
+    <Key>
+      <PropertyRef Name="MedicineId" />
+    </Key>
+    <Property Name="MedicineId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MedicineName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MedicineAmount" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AdminID" Type="Int32" />
+    <NavigationProperty Name="Administrator" Relationship="PharmaCoHealth_25Model.FK__Medicine__AdminI__239E4DCF" FromRole="Medicine" ToRole="Administrator" />
+  </EntityType>
+  <EntityType Name="Specialize">
+    <Key>
+      <PropertyRef Name="SpecializeId" />
+    </Key>
+    <Property Name="SpecializeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SpecializedField" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AdminID" Type="Int32" />
+    <NavigationProperty Name="Administrator" Relationship="PharmaCoHealth_25Model.FK__Specializ__Admin__267ABA7A" FromRole="Specialize" ToRole="Administrator" />
+  </EntityType>
+  <Association Name="FK__Medicine__AdminI__239E4DCF">
+    <End Type="PharmaCoHealth_25Model.Administrator" Role="Administrator" Multiplicity="0..1" />
+    <End Type="PharmaCoHealth_25Model.Medicine" Role="Medicine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Administrator">
+        <PropertyRef Name="AdminId" />
+      </Principal>
+      <Dependent Role="Medicine">
+        <PropertyRef Name="AdminID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Specializ__Admin__267ABA7A">
+    <End Type="PharmaCoHealth_25Model.Administrator" Role="Administrator" Multiplicity="0..1" />
+    <End Type="PharmaCoHealth_25Model.Specialize" Role="Specialize" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Administrator">
+        <PropertyRef Name="AdminId" />
+      </Principal>
+      <Dependent Role="Specialize">
+        <PropertyRef Name="AdminID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

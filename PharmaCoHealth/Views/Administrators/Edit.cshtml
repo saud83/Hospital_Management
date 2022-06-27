@@ -1,0 +1,54 @@
+﻿@model PharmaCoHealth.Models.BloodBank
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+    var blood = ViewBag.BloodGrpName;
+}
+
+
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.BloodGrp)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.BloodGrp, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <p>@blood</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Amount, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Amount, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Amount, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+
+        <div class="col-md-offset-2 col-md-10">
+            <div>
+                @Html.ActionLink("Back to List", "SearchBloodGrp")
+            </div>
+        </div>
+
+    </div>
+}
+<br><br><br><br><br><br>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

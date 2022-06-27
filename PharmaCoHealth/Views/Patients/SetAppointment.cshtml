@@ -1,0 +1,78 @@
+﻿@model PharmaCoHealth.ViewModel.AppointmentSet
+
+@{
+    ViewBag.Title = "SetAppointment";
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+}
+
+
+<h3 class="alert-danger text-center">Our Doctors </h3>
+
+<div class="align-content-center">
+    <form action="SetAppointment" method="post">
+        @Html.AntiForgeryToken()
+        <div class="container">
+            <p>Specialize</p>
+            <select name="specialize">
+                @foreach (var item in Model.specialize)
+                {
+                    <option value=@item.SpecializedField>@item.SpecializedField</option>
+                }
+            </select>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+    <table class="table">
+        <tr>
+            <th>
+                <p>Doctors Name</p>
+            </th>
+            
+            <th>
+                <p>Specialize</p>
+            </th>
+            <th>
+                <p>Doctor Phone Number</p>
+            </th>
+            <th>
+                <p>Doctor Email</p>
+            </th>
+
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model.doctors)
+        {
+                <tr>
+                    <td>
+                        <!--<a href="FinalAppointment" name="doctorName"></a>-->
+                        @Html.DisplayFor(modelItem => item.DoctorFirstName)
+                        @Html.DisplayFor(modelItem => item.DoctorLastName)
+                        
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Specialize)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DoctorPhoneNo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+
+                    <td>
+                        @Html.ActionLink("Set Appointment", "FinalAppointment", new { doctorEmail = item.Email })
+                    </td>
+
+                </tr>
+        }
+
+    </table>
+
+    <br><br>
+    <br><br>
+    <br><br>
+@Html.ActionLink("Back to Home", "patientHome")

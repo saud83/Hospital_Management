@@ -1,0 +1,149 @@
+﻿@model PharmaCoHealth.Models.PATIENTREPORT
+
+@{
+    ViewBag.Title = "Prescribe";
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+    var firstName = ViewBag.FirstName;
+    var lastName = ViewBag.LastName;
+    var email = ViewBag.Email;
+}
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form {
+            border: 3px solid #f1f1f1;
+        }
+
+        input[type=text], input[type=password], input[type=number] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #04AA6D;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+            button:hover {
+                opacity: 0.8;
+            }
+
+        .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            background-color: #f44336;
+        }
+
+        .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+        }
+
+        img.avatar {
+            width: 40%;
+            border-radius: 50%;
+        }
+
+        .container {
+            padding: 16px;
+        }
+
+        span.psw {
+            float: right;
+            padding-top: 16px;
+        }
+
+        /* Change styles for span and cancel button on extra small screens */
+        @@media screen and (max-width: 300px) {
+            span.psw {
+                display: block;
+                float: none;
+            }
+
+            .cancelbtn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("PharmaCoHealth", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Administrator", "LogIn", "Administrators")</li>
+                    <li>@Html.ActionLink("Doctor", "LogIn", "Doctors")</li>
+                    <li>@Html.ActionLink("Patient", "LogIn", "Patients")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+    <form action="Prescribe" method="post">
+        @Html.AntiForgeryToken()
+
+        <div class="container">
+            <label for="uname"><b>Patient Name</b></label>
+            <p>@firstName @lastName</p>
+
+            <label for="psw"><b>Patient Email</b></label>
+            <p>@email</p>
+
+            <label for="psw"><b>Symptom</b></label>
+            @Html.ValidationMessageFor(model => model.Symptom, "", new { @class = "text-danger" })
+            @Html.DropDownListFor(model => model.Symptom, new SelectList(ViewBag.Symptom), htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Symptom, "", new { @class = "text-danger" })
+
+            <label for="psw"><b>Diagnosis</b></label>
+            @Html.ValidationMessageFor(model => model.Diagnosis, "", new { @class = "text-danger" })
+            @Html.DropDownListFor(model => model.Diagnosis, new SelectList(ViewBag.Diagnosis), htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Diagnosis, "", new { @class = "text-danger" })
+
+            <label for="psw"><b>Prescribed Medicine</b></label>
+            @Html.ValidationMessageFor(model => model.PrescribedMedicine, "", new { @class = "text-danger" })
+            @Html.DropDownListFor(model => model.PrescribedMedicine, new SelectList(ViewBag.PrescribedMedicine),  htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.PrescribedMedicine, "", new { @class = "text-danger" })
+
+            <button type="submit">Submit</button>
+            @Html.ActionLink("Back to Home", "doctorHome")
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+
+</body>
+</html>
+
+

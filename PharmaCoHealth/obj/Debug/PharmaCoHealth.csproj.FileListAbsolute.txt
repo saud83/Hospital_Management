@@ -1,0 +1,164 @@
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\ApplicationInsights.config
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\csc.exe
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\System.Collections.Immutable.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\System.Reflection.Metadata.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\vbc.exe
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\VBCSCompiler.exe
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\VBCSCompiler.exe.config
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\PharmaCoHealth.dll.config
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\PharmaCoHealth.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\PharmaCoHealth.pdb
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Antlr3.Runtime.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\EntityFramework.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\EntityFramework.SqlServer.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.Agent.Intercept.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.DependencyCollector.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.Web.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.WindowsServer.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.ApplicationInsights.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AspNet.Identity.Core.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.Cookies.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.Facebook.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.Google.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.OAuth.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.Twitter.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Web.Infrastructure.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Newtonsoft.Json.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Owin.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.Helpers.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.Mvc.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.Optimization.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.Razor.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.WebPages.Deployment.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.WebPages.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.WebPages.Razor.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\WebGrease.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.DependencyCollector.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.Web.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.WindowsServer.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.ApplicationInsights.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.Helpers.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.Mvc.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.Optimization.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.Razor.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.WebPages.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.WebPages.Deployment.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.WebPages.Razor.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Antlr3.Runtime.pdb
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Newtonsoft.Json.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\EntityFramework.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\EntityFramework.SqlServer.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AspNet.Identity.Core.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.Facebook.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.Cookies.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.OAuth.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.Google.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.Twitter.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\obj\Debug\PharmaCoHealth.csprojResolveAssemblyReference.cache
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\obj\Debug\PharmaCoHealth.dll
+G:\3.2\CSE 3200 SD Lab\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\obj\Debug\PharmaCoHealth.pdb
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\ApplicationInsights.config
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\csc.exe
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\System.Collections.Immutable.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\System.Reflection.Metadata.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\vbc.exe
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\VBCSCompiler.exe
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\roslyn\VBCSCompiler.exe.config
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\PharmaCoHealth.dll.config
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\PharmaCoHealth.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\PharmaCoHealth.pdb
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Antlr3.Runtime.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\EntityFramework.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\EntityFramework.SqlServer.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.Agent.Intercept.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.DependencyCollector.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.Web.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.WindowsServer.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.ApplicationInsights.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AspNet.Identity.Core.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.Cookies.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.Facebook.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.Google.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.OAuth.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.Twitter.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Web.Infrastructure.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Newtonsoft.Json.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Owin.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.Helpers.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.Mvc.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.Optimization.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.Razor.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.WebPages.Deployment.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.WebPages.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.WebPages.Razor.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\WebGrease.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.DependencyCollector.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.Web.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AI.WindowsServer.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.ApplicationInsights.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.Helpers.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.Mvc.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.Optimization.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.Razor.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.WebPages.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.WebPages.Deployment.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\System.Web.WebPages.Razor.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Antlr3.Runtime.pdb
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Newtonsoft.Json.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\EntityFramework.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\EntityFramework.SqlServer.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AspNet.Identity.Core.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.Facebook.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.Cookies.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.OAuth.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.Google.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.Twitter.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\obj\Debug\PharmaCoHealth.csprojResolveAssemblyReference.cache
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\obj\Debug\PharmaCoHealth.dll
+G:\3.2\CSE 3200 SD Lab\Final Project Submission\Project 25-01-22\PharmaCoHealth\PharmaCoHealth\obj\Debug\PharmaCoHealth.pdb

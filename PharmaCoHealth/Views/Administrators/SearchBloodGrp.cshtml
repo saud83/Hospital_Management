@@ -1,0 +1,33 @@
+﻿@model IEnumerable<PharmaCoHealth.Models.BloodBank>
+
+@{
+    ViewBag.Title = "SearchBloodGrp";
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+}
+
+
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BloodGrp)
+            </th>
+            <th>@Html.DisplayNameFor(model => model.Amount)</th>
+        </tr>
+    </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BloodGrp)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Amount)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { bloodGrp = item.BloodGrp })
+                </td>
+            </tr>
+        }
+
+</table>
